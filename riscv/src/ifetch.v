@@ -26,8 +26,7 @@
 
 
                 //from ROB
-                input wire rob_set_pc_en,
-                input wire [31:0] rob_set_pc,
+   
                 //     input wire [`ADDR_WID] rob_pc
 
                 //判断是不是满了
