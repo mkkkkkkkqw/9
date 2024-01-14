@@ -45,7 +45,7 @@
             );
 
 
-            localparam IF=1,LOAD=2,STORE=3;
+     localparam IDLE=0,IF=1,LOAD=2,STORE=3;
             //we already have IDLE for zero
             reg[1:0]status;
             reg [6:0] stage;
