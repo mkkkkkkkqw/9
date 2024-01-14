@@ -79,7 +79,7 @@
             );
 
 
-
+     localparam IDLE=0,IF=1,LOAD=2,STORE=3;
             integer i;
 
             reg busy [`LSB_SIZE-1:0];
