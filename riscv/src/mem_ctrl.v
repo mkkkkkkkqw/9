@@ -23,7 +23,7 @@
                 //insfetch
                 input wire if_en,
                 input wire [31:0] if_pc,
-                output reg [31:0] if_data,
+                output wire [31:0] if_data,
                 output reg if_done,
                 // input  wire             if_en,
                 //     input  wire [`ADDR_WID] if_pc,
