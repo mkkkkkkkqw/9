@@ -50,7 +50,7 @@
 
                 input wire lsb_result,
                 input wire [31:0] lsb_result_val,
-                input wire [`ROB_POS_WID] lsb_result_rob_pos,
+                input wire [`ROB_POS_WID] lsb_result_rob_pos
 
 
             );
