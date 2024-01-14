@@ -59,11 +59,12 @@
             reg [7:0] if_data_arr[63:0];
             // reg [7:0] if_data_arr[`MEM_CTRL_IF_DATA_LEN-1:0];
             genvar gen;
-            generate
-                for (gen = 0; gen < 64; gen = gen + 1) begin
-                    assign if_data[gen*8+7:gen*8] = if_data_arr[gen];
-                end
-            endgenerate
+  genvar _i;
+  generate
+    for (_i = 0; _i < `MEM_CTRL_IF_DATA_LEN; _i = _i + 1) begin
+      assign if_data[_i*8+7:_i*8] = if_data_arr[_i];
+    end
+  endgenerate
 
 
 
