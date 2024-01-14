@@ -98,9 +98,8 @@
 `define OPCODE_SYSTEM 7'b1110011
         //系统调用
 
-
-`define IDLE = 0
-`define  WAIT_MEM=1;
+`define IDLE 0
+`define WAIT_MEM 1
 
         //end Mydefine
 
