@@ -33,7 +33,7 @@
                 //判断是不是满了
                 input wire rs_nxt_full,
                 input wire lsb_nxt_full,
-                input wire rob_nxt_full
+                input wire rob_nxt_full,
 
 
 
