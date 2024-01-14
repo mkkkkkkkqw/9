@@ -233,7 +233,7 @@
                             //load
                             rs2_rob_id=0;
                             rs2_val=0;
-                            lsb_en=1,
+                            lsb_en=1;
                             // lsb_en<=1;
                             imm={{21{inst[31]}},inst[30:20]};
                         end
