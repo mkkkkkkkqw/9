@@ -43,7 +43,7 @@
                 input wire rob_br_jump,
                 input wire [31:0] rob_br_pc
             );
-
+     localparam IDLE=0,IF=1,LOAD=2,STORE=3;
             reg[31:0]pc;//(address wide)
             reg status;
 
